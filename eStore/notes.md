@@ -65,6 +65,10 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 - > heroku login
 - > heroku create demo-bootcamp
 
-Add a PostgreSQL database to your app::
+- open heruko dashboard > deploy
 
-- > heroku addons:create heroku-postgresql:hobby-dev
+- open heruko dashboard > settings > add vars SECRET_KEY
+
+Push to deploy:
+
+- > git push heroku master
